@@ -1,0 +1,113 @@
+body {
+    background-image: url("images/portfolio-background.png");
+	background-repeat: repeat-y;
+}
+
+.carousel-inner {
+    height: 400px;
+}
+
+.mySlides, img {
+    width: 100%;
+}
+
+.bg-dark {
+    background-color: #040404!important;
+}
+
+svg {
+    position: relative;
+    display: inline-flex;
+    top: .5em;
+    align-self: center;
+}
+
+p {
+    color: white;
+}
+
+#about {
+    padding-top: 10px;
+}
+
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+	height: 900px;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+
+header .overlay {
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #190061 10%, #3500D3 100%);
+
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+nav {
+    background-color: #131313;
+	color: white;
+}
+
+.ml16 {
+	color: white;
+	padding: 40px 0;
+	font-weight: 800;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	overflow: hidden;
+  }
+  
+  .ml16 .letter {
+	display: inline-block;
+	line-height: 1em;
+  }
+
+  .quart {
+	color: white;
+  }
+
+  footer {
+	  text-align: center;
+  }
